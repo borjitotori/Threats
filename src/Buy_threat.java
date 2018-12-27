@@ -36,7 +36,7 @@ public class Buy_threat implements Runnable{
 
 	@Override
 	public void run() {
-		this.cajera.procesarCompra(this.cliente, this.initialTime);
+		this.employee.procesarCompra(this.cliente, this.initialTime);
 	}
 
 }

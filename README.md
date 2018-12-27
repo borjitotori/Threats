@@ -18,7 +18,6 @@ Almost all the threads are implemented on yhe class *Buy_threat* where are also 
 		this.cliente = cliente;
 		this.initialTime = initialTime;
 	}
-
 	public static void main(String[] args) {
 		
 		Customer cliente1 = new Customer("User1", new int[] { 2, 2, 1, 5, 2, 3 });
@@ -39,13 +38,12 @@ Almost all the threads are implemented on yhe class *Buy_threat* where are also 
 		new Thread(proceso1).start();
 		new Thread(proceso2).start();
 		new Thread(proceso3).start();
-
-
 	}
-
 	@Override
 	public void run() {
 		this.cajera.procesarCompra(this.cliente, this.initialTime);
 	}
-
 }
+
+Alos test will be added on later versions.
+

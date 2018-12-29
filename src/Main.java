@@ -13,7 +13,7 @@ public class Main {
 		books_list.add(new B_data("Horror", "Varufaruco", "Capcom", 19 ));
 		books_list.add(new B_data("Accion", "Deviljho", "Tarantulino", 14 ));
 		books_list.add(new B_data("Aventuras", "Nergigante", "Capcom", 17 ));
-		books_list.add(new B_data("Aventuras", "Aventura nº1", "Samael", 20 ));
+		books_list.add(new B_data("Aventuras", "Aventura nÂº1", "Samael", 20 ));
 		books_list.add(new B_data("Horror", "Dinobalbo", "Capcom", 19));
 		movie_list.add(new M_data("Horror", "Stan", "Stan", 22));
 		movie_list.add(new M_data("Horror", "Stan", "Stan", 22));
@@ -56,7 +56,7 @@ public class Main {
 			case 1:
 				
 				Customer cliente1 = new Customer("User1", new int[] { 1, 1, 3, 1, 2, 3 });
-				Customer cliente2 = new Customer("User2", new int[] { 2, 2, 3, 2, 2, 2 });
+				Customer cliente2 = new Customer("User2", new int[] { 2, 2, 3, 1, 2, 3 });
 				Customer cliente3 = new Customer("User3", new int[] { 3, 3, 2, 1, 2, 3 });
 
 
